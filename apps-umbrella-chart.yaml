@@ -8,7 +8,7 @@ spec:
     namespace: argocd
   source:
     path: helm-umbrella-chart/apps
-    repoURL: https://github.com/morey-tech/argo-cd-helm-values-demo
+    repoURL: https://github.com/ppngiap/argo-cd-helm-values-demo
     targetRevision: HEAD
     directory: {}
   project: default

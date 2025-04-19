@@ -18,7 +18,7 @@ spec:
         valueFiles:
         - $values/multiple-source-application/values-dev.yaml
     # Values from Git
-    - repoURL: 'https://github.com/morey-tech/argo-cd-helm-values-demo'
+    - repoURL: 'https://github.com/ppngiap/argo-cd-helm-values-demo'
       targetRevision: HEAD
       ref: values
   syncPolicy:

@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: helm-umbrella-chart
-    repoURL: https://github.com/morey-tech/argo-cd-helm-values-demo
+    repoURL: https://github.com/ppngiap/argo-cd-helm-values-demo
     targetRevision: HEAD
     helm:
       # https://argo-cd.readthedocs.io/en/stable/user-guide/helm/#values-files
