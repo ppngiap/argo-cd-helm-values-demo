@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     namespace: dev
-    name: kind
+    name: in-cluster
   project: default
   source:
     path: helm-umbrella-chart

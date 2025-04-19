@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     namespace: prod
-    name: kind
+    name: in-cluster
   project: default
   source:
     chart: hello-world

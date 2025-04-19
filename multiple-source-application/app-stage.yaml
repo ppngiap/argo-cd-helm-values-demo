@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     namespace: stage
-    name: kind
+    name: in-cluster
   project: default
   sources:
     # Chart from Chart Repo

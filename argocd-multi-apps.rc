@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+RCFILE=$HOME/github/ppngiap/argo-cd-helm-values-demo/argocd-multi-apps.rc
+alias sacdt="source $RCFILE"
+alias acdt="vim $RCFILE; sacdt"
+
+function acdt-delete-multi-apps() {
+  argocd app delete apps-multiple-source-application --cascade --yes
+}
+
