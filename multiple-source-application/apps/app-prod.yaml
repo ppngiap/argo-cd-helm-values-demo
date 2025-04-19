@@ -15,7 +15,7 @@ spec:
       targetRevision: 0.1.0
       helm:
         valueFiles:
-        - $values/multiple-source-application/values-prod.yaml
+        - $values/multiple-source-application/values/values-prod.yaml
     # Values from Git
     - repoURL: 'https://github.com/ppngiap/argo-cd-helm-values-demo'
       targetRevision: HEAD
