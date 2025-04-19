@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+function acdt-create-multi-apps() {
+  kubectl apply -f apps-multiple-source-application.yaml
+}
+
+function acdt-delete-multi-apps() {
+  argocd app delete apps-multiple-source-application --cascade --yes
+}
+

@@ -7,7 +7,7 @@ spec:
     name: in-cluster
     namespace: argocd
   source:
-    path: multiple-source-application
+    path: multiple-source-application/apps
     repoURL: https://github.com/ppngiap/argo-cd-helm-values-demo
     targetRevision: HEAD
     directory: {}
